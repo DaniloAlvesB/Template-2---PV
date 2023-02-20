@@ -1,0 +1,19 @@
+@keyframes to-left {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100% {
+        opacity: 100;
+        transform: translateX(0);
+    }
+}
+
+@keyframes rotate-animation {
+    0%{
+        transform: scale(0.20);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

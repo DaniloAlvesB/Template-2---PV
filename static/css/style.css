@@ -1,0 +1,71 @@
+.bg-dark-d-bottom{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+
+.bg-dark-d-top{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+
+#circulo {
+    float: left;
+    width: 30vw;
+    height: 30vw;
+    margin: 20px;
+    shape-outside: circle();
+    clip-path: circle();
+    background: white;
+    margin-top: -15vh;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+#circulo:hover {
+
+    transform: scale(1.1);
+
+}
+
+#text1{
+    animation: to-left 1s;
+}
+
+#btn_img_select{
+    border: none;
+    background-color: rgba(111, 17, 62, 0.1);
+    height: 15vh;
+    margin: 2vh;
+    border-radius: 3px;
+    transition: transform 0.5s;
+}
+
+#btn_img_select:hover{
+    transform: rotate(2.5deg);
+}
+
+#img_select{
+    border: none;
+    background-color: transparent;
+    height: 15vh;
+}
+
+#img_anima, #batom_title{
+    animation: rotate-animation 1s;
+    transition: transform 1s;
+}
+
+#img_anima:hover{
+    transform: rotate(2deg);
+}
+
+#card{
+    transition: transform 0.5s;
+}
+#card:hover{
+    transform: scale(1.025)
+}
+
+@media(max-width: 989px){
+    .collapse-bg{
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+}
