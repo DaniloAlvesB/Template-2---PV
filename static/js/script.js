@@ -7,7 +7,7 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 
 function select_image_src(src, title){
     img_dest.innerHTML = `
-        <img id="img_anima" class="img-fluid" src="/${src}">
+        <img id="img_anima" class="img-fluid" src="${src}">
     `
     batom_title_base.innerHTML = `
         <h5 id="batom_title">${title}</h5>
